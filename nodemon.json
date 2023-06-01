@@ -1,6 +1,6 @@
 {
-  "ext": "js,json",
+  "ext": "ts,js,json",
   "execMap": {
-    "js": "node --inspect=0.0.0.0"
+    "ts": "node --inspect=0.0.0.0 -r ts-node/register"
   }
 }
